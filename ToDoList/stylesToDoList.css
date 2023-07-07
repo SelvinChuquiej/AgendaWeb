@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.wallpaper {
+    height: 120vh;
+    width: 100%;
+    background-image: url('../images/Login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+    width: 20rem;
+    height: 100%;
+    z-index: 1;
+}
+
+.btn-img {
+    width: 4rem;
+    transition: all 500ms;
+}
+
+.btn-img:hover {
+    transform: scale(1.2);
+    transition: all 500ms;
+}
+
+.text-center {
+    color: white;
+}
+
+.cont {
+    text-align: center;
+    color: white;
+}
+
+form {
+    width: 50%;
+    height: 20vh;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.btns {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.btn-submit {
+    border-radius: 50px;
+    height: 2.6rem;
+    width: 100rem;
+}
+
+.input {
+    width: 20rem;
+    border-radius: 50px;
+    height: 2.5rem;
+    padding-left: 1rem;
+}
+
+.slopes {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.table-slopes {
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    width: 80%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+table {
+    border: 1px solid;
+}
+
+table td {
+    border: 1px solid;
+    width: 20%;
+    height: 3rem;
+}
+
+.btn-delete,
+.btn-edit {
+    width: 20%;
+    height: 2rem;
+    border-radius: 50px;
+    transition: all 300ms;
+}
+
+.btn-delete:hover {
+    transform: scale(1.1);
+    transition: all 300ms;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.btn-edit:hover {
+    transform: scale(1.1);
+    transition: all 300ms;
+    background-color: rgb(23, 50, 146);
+    color: white;
+}
+
+.col {
+    color: black;
+}
+
+.btn-info {
+    width: 50px;
+}
+
+.btn {
+    margin: 0px auto;
+    width: 120px;
+}
+
+.form-control {
+    width: 15rem;
+}
+
+.modal-content {
+    height: 20rem;
+}
+
+.modal-body{
+    display: flex;
+    align-items: center;
+    
+}

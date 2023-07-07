@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "slope": "Lavar Trastos",
+        "numberSlope": 8
+    }, 
+    
+    {
+        "id": 2,
+        "slope": "Cocinar",
+        "numberSlope": 5
+    }
+]
